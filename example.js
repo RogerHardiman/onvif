@@ -14,6 +14,10 @@ new Cam({
 	username: USERNAME,
 	password: PASSWORD
 }, function(err) {
+	if (err) {
+		console.log('Connection Failed for ' + CAMERA_HOST + ' Username: ' + USERNAME + ' Password: ' + PASSWORD);
+		return;
+	}
 	this.absoluteMove({
 		x: 1
 		, y: 1
