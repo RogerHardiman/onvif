@@ -64,6 +64,8 @@ new Cam({
 
 * example3.js reads the command line cursor keys and sends PTZ commands to the camera
 
+* example4.js starts a WS-Discovery and lists replies from cameras
+
 
 ## Troubleshooting
 Different cameras have different ONVIF implementation. I've tested this module only with a couple of devices. So if you got different problems with this library, please let me know via e-mail. Else please just send the model of your
