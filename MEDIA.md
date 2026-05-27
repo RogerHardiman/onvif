@@ -72,10 +72,10 @@ https://www.onvif.org/ver10/media/wsdl/media.wsdl
 -[x] SetSynchronizationPoint
 -[x] GetSnapshotUri
 -[x] GetVideoSourceModes
--[ ] SetVideoSourceMode
+-[x] SetVideoSourceMode
 -[x] GetOSDs
--[ ] GetOSD
--[ ] SetOSD
+-[x] GetOSD
+-[x] SetOSD
 -[x] GetOSDOptions
--[ ] CreateOSD
--[ ] DeleteOSD 
+-[x] CreateOSD
+-[x] DeleteOSD 
